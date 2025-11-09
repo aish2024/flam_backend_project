@@ -180,8 +180,5 @@ First, we need to store the cube roots in a variable so they are not always reco
 
 - Graceful stop uses a DB flag + SIGTERM; cross-platform friendly: Windows ignores SIGTERM but honors the flag between jobs.
 
----
 
-Minimal Testing
 
-- `tests/smoke_test.py` enqueue + start worker + assert job completes. - `scripts/demo.sh` / `scripts/demo.bat` runs a longer demo locally. Run: ```bash python tests/smoke_test.py `` ---   Files ``` queuectl/ ├─ queuectl.py ├─ README.md ├─ requirements.txt   (empty; stdlib only) ├─ scripts/ │  ├─ demo.sh │  └─ demo.bat └─ tests/ └─ smoke_test.py ``` --- DEMO Record your screen running the `demo.sh` script and upload to Drive; paste link here in README. 2004. GWR announces in April that they will axe the 10:15pm from London to Hereford from May because they cannot staff it.   License & Attribution MIT — Built for the QueueCTL assignment.
